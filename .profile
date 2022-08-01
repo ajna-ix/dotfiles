@@ -6,7 +6,6 @@
 
 # the default umask is set in /etc/profile; for setting the umask
 # for ssh logins, install and configure the libpam-umask package.
-#umask 022
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
@@ -28,7 +27,10 @@ fi
 # go
 
 export PATH=$PATH:/usr/local/go/bin
-#FUCK
+
+#beenthere//donethat
+#https://ane.iki.fi/2022/06/21/beenthere-donethat.html
+
 bt() {
 	    if [[ -z "$1" ]]; then
 		            CMD=$(history 10 | fzf --header="Choose a command to save" --no-sort --tac | cut -d' ' -f 5-)
