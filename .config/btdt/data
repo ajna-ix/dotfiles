@@ -1,2 +1,3 @@
 cd music/ && yt-dlp --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" 	youtube playslist --> mp3	
 < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-12};echo;	generate 12 character password	
+curl 'wttr.in/Denver?m2&lang=en'	Denver weather	
