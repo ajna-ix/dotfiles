@@ -11,6 +11,8 @@ Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'yuratomo/w3m.vim'
+
 
 call plug#end()
 
