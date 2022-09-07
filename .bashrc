@@ -96,6 +96,6 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 #moar aliases
 alias explorer="explorer.exe ."
-alias stonk='gum spin --spinner moon --title "stonking" -- sleep 5 && ticker -w SPY,BTC-USD,APPL,MSFT,GOOG,VXX,TSLA,PSNY'
+alias stonk='gum spin --spinner moon --title "stonking" -- sleep 5 && ticker -w SPY,BTC-USD,APPL,MSFT,GOOG,VXX,TSLA,PSNY,RIVN,NVDA,TLRY'
 alias mp3='cd ~/podcasts && yt-dlp -x --audio-format mp3'
 alias ls='lsd'
