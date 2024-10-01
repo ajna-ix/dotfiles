@@ -1,3 +1,4 @@
+
 #debian
 source /etc/profile
 
@@ -97,5 +98,5 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 #moar aliases
 alias explorer="explorer.exe ."
 alias stonk='gum spin --spinner moon --title "stonking" -- sleep 5 && ticker -w SPY,BTC-USD,AAPL,MSFT,GOOG,VXX,TSLA,PSNY,RIVN,NVDA,TLRY'
-alias mp3='cd ~/podcasts && yt-dlp -x --audio-format mp3'
+alias mp3='yt-dlp --extract-audio --audio-format mp3 --embed-thumbnail'
 alias ls='lsd'
